@@ -1,12 +1,12 @@
-from button import Button
+from dialog import Dialog
 
 
 class Application(object):
     def __init__(self, os: str):
-        self.button = Button.of(os)
+        self.dialog = Dialog(os=os)
 
     def run(self):
-        self.button.onClick()
+        self.dialog.render()
 
 
 if __name__ == "__main__":

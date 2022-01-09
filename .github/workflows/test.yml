@@ -1,0 +1,22 @@
+name: PyTest
+
+on: push
+    
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - names: Check out repository code
+      uses: actions/checkout@v2
+
+    - name: Setup Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: "3.x"
+
+    - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+    - name: Run Tests
+        run: pytest

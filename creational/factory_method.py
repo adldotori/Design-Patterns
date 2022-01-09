@@ -1,12 +1,13 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 
 
 class Button(ABC):
     def __init__(self):
         pass
 
+    @abstractmethod
     def onClick(self):
-        print("clicked")
+        raise NotImplementedError()
 
 
 class WindowsButton(Button):
@@ -36,6 +37,16 @@ class Application(object):
 
     def run(self):
         self.button.onClick()
+
+
+class Test(object):
+    def test_windows(self):
+        app = Application("windows")
+        app.run()
+
+    def test_html(self):
+        app = Application("html")
+        app.run()
 
 
 if __name__ == "__main__":

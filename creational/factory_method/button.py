@@ -15,7 +15,7 @@ class Button(ABC):
             raise KeyError("unknown os")
 
     @abstractmethod
-    def onClick(self):
+    def on_click(self):
         raise NotImplementedError()
 
 
@@ -23,7 +23,7 @@ class WindowsButton(Button):
     def __init__(self):
         pass
 
-    def onClick(self):
+    def on_click(self):
         print("windows clicked")
 
 
@@ -31,5 +31,5 @@ class HTMLButton(Button):
     def __init__(self):
         pass
 
-    def onClick(self):
+    def on_click(self):
         print("html clicked")

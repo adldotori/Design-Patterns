@@ -7,8 +7,8 @@ class Test(object):
         app = Application("windows")
         app.run()
 
-    def test_html(self):
-        app = Application("html")
+    def test_web(self):
+        app = Application("web")
         app.run()
 
     def test_other(self):

@@ -32,4 +32,8 @@ class HTMLButton(Button):
         pass
 
     def on_click(self):
+        self._hover()
         print("html clicked")
+
+    def _hover(self):
+        print("hover")

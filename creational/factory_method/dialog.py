@@ -6,4 +6,4 @@ class Dialog(object):
         self.button = Button.of(os)
 
     def render(self):
-        self.button.onClick()
+        self.button.on_click()

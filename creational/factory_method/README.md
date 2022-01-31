@@ -12,6 +12,12 @@ https://refactoring.guru/design-patterns/factory-method
   2. Product 외부에서 사용해야 하는 메서드가 다른 경우 Creator Interface 정의 후 Product에 dependent한 Concrete Creator class 구현 필요.
 - Creator Interface 가 반드시 abstract class 일 필요는 없다. 모든 Concrete Creator Class 에서 공통적으로 필요한 메서드는 Interface 에서 구현한다.
 
+### 적용 상황
+
+- 사용해야 하는 객체의 정확한 타입과 종속성을 모를 때
+- 개발한 컴포넌트의 확장을 라이브러리 사용자에게 추천할 때
+- 존재하는 객체를 재사용함으로서 시스템 자원을 절약하고 싶을 때
+
 ### 장점
 
 - creator 와 concrete product class 의 decoupling

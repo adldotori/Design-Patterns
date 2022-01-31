@@ -5,9 +5,6 @@ from checkbox import Checkbox, WindowsCheckbox, MacCheckbox
 
 
 class GUIFactory(ABC):
-    def __init__(self):
-        pass
-
     @classmethod
     def of(cls, os: str):
         if os == "windows":
@@ -27,9 +24,6 @@ class GUIFactory(ABC):
 
 
 class WindowsFactory(GUIFactory):
-    def __init__(self):
-        pass
-
     def createButton(self) -> Button:
         return WindowsButton()
 
@@ -38,9 +32,6 @@ class WindowsFactory(GUIFactory):
 
 
 class MacFactory(GUIFactory):
-    def __init__(self):
-        pass
-
     def createButton(self) -> Button:
         return MacButton()
 

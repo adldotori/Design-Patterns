@@ -4,9 +4,6 @@ from button import WindowsButton, HTMLButton
 
 
 class Dialog(ABC):
-    def __init__(self):
-        pass
-
     @classmethod
     def of(cls, os: str):
         if os == "windows":

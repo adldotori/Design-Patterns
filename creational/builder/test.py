@@ -6,11 +6,11 @@ class Test(object):
     def test_sports_car(self):
         director: Director = Director()
         builder: Builder = CarBuilder()
-        director.makeSportsCar(builder)
+        director.make_sports_car(builder)
         car: Car = builder.getResult()
 
         builder: Builder = CarManualBuilder()
-        director.makeSportsCar(builder)
+        director.make_sports_car(builder)
         manual: Manual = builder.getResult()
 
         print("Car >>>\n", car)
@@ -19,11 +19,11 @@ class Test(object):
     def test_suv(self):
         director: Director = Director()
         builder: Builder = CarBuilder()
-        director.makeSUV(builder)
+        director.make_suv(builder)
         car: Car = builder.getResult()
 
         builder: Builder = CarManualBuilder()
-        director.makeSUV(builder)
+        director.make_suv(builder)
         manual: Manual = builder.getResult()
 
         print("Car >>>\n", car)

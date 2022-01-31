@@ -3,14 +3,14 @@ from engine import SUVEngine, SportEngine
 
 
 class Director(object):
-    def makeSUV(self, builder: Builder):
+    def make_suv(self, builder: Builder):
         builder.reset()
         builder.setSeats(4)
         builder.setEngine(SUVEngine())
         builder.setTripComputer()
         builder.setGPS()
 
-    def makeSportsCar(self, builder: Builder):
+    def make_sports_car(self, builder: Builder):
         builder.reset()
         builder.setSeats(2)
         builder.setEngine(SportEngine())
@@ -21,11 +21,11 @@ class Director(object):
 if __name__ == "__main__":
     director: Director = Director()
     builder: Builder = CarBuilder()
-    director.makeSportsCar(builder)
+    director.make_sports_car(builder)
     car: Car = builder.getResult()
 
     builder: Builder = CarManualBuilder()
-    director.makeSportsCar(builder)
+    director.make_sports_car(builder)
     manual: Manual = builder.getResult()
 
     print("Car >>>\n", car)

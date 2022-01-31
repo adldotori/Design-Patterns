@@ -7,3 +7,6 @@
 3.  [Abstract Factory Pattern](creational/abstract_factory/README.md)
 4.  [Builder Pattern](creational/builder/README.md)
 5.  [Prototype Pattern](creational/prototype/README.md)
+6.  [Singleton Pattern](creational/singleton/README.md)
+
+## Structural

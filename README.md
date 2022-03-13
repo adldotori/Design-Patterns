@@ -10,3 +10,11 @@
 6.  [Singleton Pattern](creational/singleton/README.md)
 
 ## Structural
+
+1.  [Adapter Pattern](structural/adapter/README.md)
+2.  [Bridge Pattern](structural/bridge/README.md)
+3.  [Composite Pattern](structural/composite/README.md)
+4.  [Decorator Pattern](structural/decorator/README.md)
+5.  [Facade Pattern](structural/facade/README.md)
+6.  [Flyweight Pattern](structural/flyweight/README.md)
+7.  [Proxy Pattern](structural/proxy/README.md)

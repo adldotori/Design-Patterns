@@ -25,7 +25,7 @@ https://refactoring.guru/design-patterns/facade
 - Facade는 존재하는 객체를 위해 새로운 인터페이스 생성을 하나 Adapter는 기존의 인터페이스를 사용가능하게 변경
 - Adapter는 한 객체만 wrapping, Facade는 모든 서브시스템을 wrapping함
 - Facade에서 서브시스템 객체 생성 방법만 가리고 싶을 경우 Abstract Factory 사용하면 됨
-- TODO: FlyWeight
+- Flyweight는 엄청나게 많은 작은 객체를 표현한다면, Facade는 엄청나게 큰 서브시스템을 단 하나의 객체로 표현함
 - TODO: Mediator
 - Facade 객체는 보통 하나로 충분하므로 싱글톤으로도 많이 사용함
 - TODO: Proxy

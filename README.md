@@ -21,13 +21,13 @@
 
 ## Behavioral
 
-1. [Chain of Responsibility Pattern](behavioral/chain_of_responsibility/README.md)
-2. [Command Pattern](behavioral/command/README.md)
-3. [Iterator Pattern](behavioral/iterator/README.md)
-4. [Mediator Pattern](behavioral/mediator/README.md)
-5. [Memento Pattern](behavioral/memento/README.md)
-6. [Observer Pattern](behavioral/observer/README.md)
-7. [State Pattern](behavioral/state/README.md)
-8. [Strategy Pattern](behavioral/strategy/README.md)
+1. [Strategy Pattern](behavioral/strategy/README.md)
+2. [Chain of Responsibility Pattern](behavioral/chain_of_responsibility/README.md)
+3. [Command Pattern](behavioral/command/README.md)
+4. [Iterator Pattern](behavioral/iterator/README.md)
+5. [Mediator Pattern](behavioral/mediator/README.md)
+6. [Memento Pattern](behavioral/memento/README.md)
+7. [Observer Pattern](behavioral/observer/README.md)
+8. [State Pattern](behavioral/state/README.md)
 9. [Template Method Pattern](behavioral/template_method/README.md)
 10. [Visitor Pattern](behavioral/visitor/README.md)

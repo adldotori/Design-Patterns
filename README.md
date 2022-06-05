@@ -18,3 +18,16 @@
 5.  [Facade Pattern](structural/facade/README.md)
 6.  [Flyweight Pattern](structural/flyweight/README.md)
 7.  [Proxy Pattern](structural/proxy/README.md)
+
+## Behavioral
+
+1. [Chain of Responsibility Pattern](behavioral/chain_of_responsibility/README.md)
+2. [Command Pattern](behavioral/command/README.md)
+3. [Iterator Pattern](behavioral/iterator/README.md)
+4. [Mediator Pattern](behavioral/mediator/README.md)
+5. [Memento Pattern](behavioral/memento/README.md)
+6. [Observer Pattern](behavioral/observer/README.md)
+7. [State Pattern](behavioral/state/README.md)
+8. [Strategy Pattern](behavioral/strategy/README.md)
+9. [Template Method Pattern](behavioral/template_method/README.md)
+10. [Visitor Pattern](behavioral/visitor/README.md)
